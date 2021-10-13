@@ -12,13 +12,13 @@ This repository is a monorepo manage with [yarn workspaces](https://classic.yarn
 Clone the repository 
 
 ```
-git clone git@github.com:pancakeswap/pancake-toolkit.git
+git clone git@github.com:Tjykenneth/alpha-impact-toolkit.git
 ```
 
 Run yarn at the root of the workspace
 
 ```
-cd pancake-toolkit
+cd alpha-impact-toolkit
 yarn
 ```
 
