@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.2.0...@Tjykenneth/uikit@0.2.1) (2021-10-19)
+
+
+### Bug Fixes
+
+* Update token ([e1a1123](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/e1a1123481e67568a45357865c39a0ac2bd9ee12))
+
+
+
+
+
 # 0.2.0 (2021-10-19)
 
 
