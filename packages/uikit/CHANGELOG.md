@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2021-10-19)
+
+
+### Bug Fixes
+
+* **menu:** Change header color ([1d1e33b](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/1d1e33b978fc5d7137a829d44e8fd7267124640b))
+
+
+### Features
+
+* Setup github package config ([a4d02bb](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/a4d02bb6e94e04bf600ac9cb5fb2e6e066dc8838))
+
+
+
+
+
 ## [0.53.17](https://github.com/Tjykenneth/safariswap-toolkit/compare/@Tjykenneth/uikit@0.53.16...@Tjykenneth/uikit@0.53.17) (2021-10-11)
 
 ### Bug Fixes
