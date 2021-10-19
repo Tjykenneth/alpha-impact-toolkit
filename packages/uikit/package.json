@@ -1,6 +1,6 @@
 {
-  "name": "@kenjiwb/uikit",
-  "version": "0.53.17",
+  "name": "@Tjykenneth/uikit",
+  "version": "0.1.0",
   "description": "Set of UI components for pancake projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -10,8 +10,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/kenjiwb/safariswap-toolkit.git",
-    "directory": "packages/pancake-uikit"
+    "url": "ssh://git@github.com/Tjykenneth/alpha-impact-toolkit.git",
+    "directory": "packages/uikit"
   },
   "license": "MIT",
   "scripts": {
@@ -57,7 +57,7 @@
     "styled-system": "^5.1.5"
   },
   "publishConfig": {
-    "name": "@kenjiwb/uikit",
+    "name": "@Tjykenneth/uikit",
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },

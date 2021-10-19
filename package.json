@@ -1,20 +1,20 @@
 {
   "name": "alpha-impact-toolkit",
   "version": "1.0.0",
-  "description": "Safari frontend packages",
+  "description": "Alpha frontend packages",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kenjiwb/safariswap-toolkit.git"
+    "url": "git+https://github.com/Tjykenneth/alpha-impact-toolkit.git"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kenjiwb/safariswap-toolkit/issues"
+    "url": "https://github.com/Tjykenneth/alpha-impact-toolkit/issues"
   },
-  "homepage": "https://github.com/kenjiwb/safariswap-toolkit#readme",
+  "homepage": "https://github.com/Tjykenneth/alpha-impact-toolkit#readme",
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
@@ -29,7 +29,7 @@
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
-  "devDependencies": {
+  "dependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "@commitlint/cli": "^12.1.1",
@@ -62,9 +62,7 @@
     "themeprovider-storybook": "^1.7.1",
     "ts-jest": "^26.5.6",
     "tslib": "^2.2.0",
-    "typescript": "^4.2.4"
-  },
-  "dependencies": {
+    "typescript": "^4.2.4",
     "@types/react-js-pagination": "^3.0.4"
   }
 }
