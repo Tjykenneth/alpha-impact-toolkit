@@ -1,3 +1,4 @@
 packages/uikit/tsconfig.json
 lerna.json
 .commitlintrc.json
+tsconfig.json
