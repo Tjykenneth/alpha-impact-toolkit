@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import React from "react";
 import Button from "../../components/Button/Button";
 import Text from "../../components/Text/Text";
@@ -6,6 +7,7 @@ import Flex from "../../components/Box/Flex";
 import { Modal as DefaultModal } from "../Modal";
 import CopyToClipboard from "./CopyToClipboard";
 import { connectorLocalStorageKey } from "./config";
+// eslint-disable-next-line import/order
 import styled from "styled-components";
 
 interface Props {
