@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable react/require-default-props */
 import React from "react";
 import Button from "../../components/Button/Button";
@@ -8,7 +9,7 @@ import { Modal as DefaultModal } from "../Modal";
 import CopyToClipboard from "./CopyToClipboard";
 import { connectorLocalStorageKey } from "./config";
 // eslint-disable-next-line import/order
-import styled from "styled-components";
+import styled, { DefaultTheme } from "styled-components";
 
 interface Props {
   account: string;
@@ -16,11 +17,18 @@ interface Props {
   onDismiss?: () => void;
 }
 
+const getBackground = (theme: DefaultTheme) => {
+  if (theme.isDark) {
+    return "rgb(21 23 26)";
+  }
+  return "#FFFFFF";
+};
+
 const Modal = styled(DefaultModal)`
-  background: #718353;
+  background: ${({ theme }) => getBackground(theme)};
 
   svg {
-    fill: rgb(254, 239, 3);
+    fill: blue;
   }
 `;
 
@@ -41,9 +49,12 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
     </Flex>
     <Flex justifyContent="center">
       <Button
-        style={{ backgroundImage: "linear-gradient(to right,#1fc7d4,rgba(248,209,47,1))", color: "#ffffff" }}
+        style={{
+          backgroundImage: "linear-gradient(to right, rgb(95, 195, 228) 0%, rgb(229, 93, 135) 100%)",
+          color: "white",
+        }}
         scale="sm"
-        variant="secondary"
+        // variant="secondary"
         onClick={() => {
           logout();
           window.localStorage.removeItem(connectorLocalStorageKey);

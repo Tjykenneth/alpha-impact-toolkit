@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 import React from "react";
 import styled from "styled-components";
 import CustomButton from "../../components/Button/Button";
@@ -17,7 +18,7 @@ interface CustomButtonProps {
   isSelected?: boolean;
 }
 const Button = styled(CustomButton)<CustomButtonProps>`
-  background: #384038;
+  background: black;
 `;
 
 const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb, isSelected }) => {

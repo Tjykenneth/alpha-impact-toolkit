@@ -1,5 +1,6 @@
+/* eslint-disable react/require-default-props */
 import React from "react";
-import styled from "styled-components";
+import styled, { DefaultTheme } from "styled-components";
 import { Modal as DefaultModal } from "../Modal";
 import WalletCard from "./WalletCard";
 import config from "./config";
@@ -9,6 +10,12 @@ interface Props {
   login: Login;
   onDismiss?: () => void;
 }
+const getBackground = (theme: DefaultTheme) => {
+  if (theme.isDark) {
+    return "rgb(21 23 26)";
+  }
+  return "#FFFFFF";
+};
 
 const Modal = styled(DefaultModal)`
   ::after {
@@ -18,10 +25,10 @@ const Modal = styled(DefaultModal)`
     left: 0;
     width: 100%;
     height: 2px;
-    background-image: linear-gradient(to right, #1fc7d4, rgba(248, 209, 47, 1)) !important;
+    background-image: linear-gradient(to right, rgb(95, 195, 228) 0%, rgb(229, 93, 135) 100%) !important;
   }
 
-  background: #718353;
+  background: ${({ theme }) => getBackground(theme)};
   position: relative;
 
   > :first-child {
@@ -29,7 +36,7 @@ const Modal = styled(DefaultModal)`
   }
 
   svg {
-    fill: rgb(254, 239, 3);
+    fill: blue;
   }
 `;
 
