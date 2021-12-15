@@ -42,6 +42,7 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
       {account}
     </Text>
     <Flex mb="32px">
+      {/* change url  */}
       <LinkExternal small href={`https://etherscan.io//address/${account}`} mr="16px">
         View on Etherscan
       </LinkExternal>
