@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.4](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.1.2...@Tjykenneth/uikit@0.1.4) (2021-12-15)
+
+
+### Bug Fixes
+
+* **Add:** Change login modal url ([9701b39](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/9701b3967f34efa0d8e710037438adfe7017ca86))
+* **Add:** Change login modal url ([37be846](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/37be8465bb2e42f9c5ee5acdef4bab1d897d9de4))
+
+
+
+
+
 ## [0.1.2](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.1.1...@Tjykenneth/uikit@0.1.2) (2021-11-11)
 
 
