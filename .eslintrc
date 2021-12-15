@@ -1,6 +1,15 @@
 {
   "extends": "@pancakeswap-libs/eslint-config-pancake",
   "rules": {
+    "react/require-default-props": 1,
+    "react/default-props-match-prop-types": 1,
+    "react/no-unused-prop-types": 0,
+    "import/prefer-default-export": 1,
+    "import/order": 1,
+    "jsx-a11y/alt-text": 1,
+    "@typescript-eslint/no-use-before-define": 1,
+    "prefer-destructuring": 1,
+    "react/prop-types": 0,
     "import/no-extraneous-dependencies": [
       "error",
       {
@@ -30,7 +39,7 @@
         "jest": true
       },
       "rules": {
-        "import/no-extraneous-dependencies": 0
+        "import/no-extraneous-dependencies": 0,
       }
     }
   ]
