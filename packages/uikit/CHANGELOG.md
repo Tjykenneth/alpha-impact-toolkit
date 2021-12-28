@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.1.4...@Tjykenneth/uikit@0.1.7) (2021-12-28)
+
+
+### Bug Fixes
+
+* **Add:** Changes in modal button color ([a0b5edb](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/a0b5edb926605340caf6a628213de5640a9b5067))
+
+
+
+## 0.1.6 (2021-12-15)
+
+
+
+
+
 ## [0.1.4](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.1.2...@Tjykenneth/uikit@0.1.4) (2021-12-15)
 
 
