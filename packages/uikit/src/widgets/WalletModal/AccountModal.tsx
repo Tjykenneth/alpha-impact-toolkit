@@ -51,7 +51,7 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
     <Flex justifyContent="center">
       <Button
         style={{
-          backgroundImage: "linear-gradient(to right, rgb(95, 195, 228) 0%, rgb(229, 93, 135) 100%)",
+          background: "#3F43C8",
           color: "white",
         }}
         scale="sm"
