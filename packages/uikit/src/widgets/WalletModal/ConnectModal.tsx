@@ -25,7 +25,7 @@ const Modal = styled(DefaultModal)`
     left: 0;
     width: 100%;
     height: 2px;
-    background-image: linear-gradient(to right, rgb(95, 195, 228) 0%, rgb(229, 93, 135) 100%) !important;
+    background: #3f43c8 !important;
   }
 
   background: ${({ theme }) => getBackground(theme)};
