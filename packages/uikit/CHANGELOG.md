@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.1.1...@Tjykenneth/uikit@0.1.2) (2021-11-11)
+
+
+### Bug Fixes
+
+*  Fix formater ([0d2fdec](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/0d2fdecce72b6db409610175352f472ba8931c19))
+* **alpha:** Working connect modal functinality ([3c7177a](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/3c7177abb53e0b7ab8555d974956c886234d9f66))
+* **alpha:** Working connect modal functinality ([b8da31a](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/b8da31a73a3cc32f2acaf99179e4e93bb9f96561))
+* **alpha:** Working connect modal functinality ([91949a9](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/91949a96802c9d147aa079a410fdd69152345dad))
+* **alpha:** Working connect modal functinality ([7fc4ff1](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/7fc4ff179a1195e353fc613e62451f9f7016aab1))
+* Error lint ([3d55372](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/3d55372582e2160c6157c4db2d9d30b72eacdeec))
+
+
+
+
+
 ## [0.1.1](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.2.2...@Tjykenneth/uikit@0.1.1) (2021-10-19)
 
 
