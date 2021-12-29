@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.1.7...@Tjykenneth/uikit@0.2.0) (2021-12-29)
+
+
+### Bug Fixes
+
+* **Add:** Changes in login modal ([6c8c4bf](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/6c8c4bffa0e95fbe0381e4713d2cca411375bece))
+
+
+### Features
+
+* Remove hardcoded npmrc ([aa2c843](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/aa2c84377ffbcac100046815f60fc6c2d96a0f43))
+
+
+
+
+
 ## [0.1.7](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.1.4...@Tjykenneth/uikit@0.1.7) (2021-12-28)
 
 
