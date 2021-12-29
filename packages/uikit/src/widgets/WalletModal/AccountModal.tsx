@@ -26,10 +26,6 @@ const getBackground = (theme: DefaultTheme) => {
 
 const Modal = styled(DefaultModal)`
   background: ${({ theme }) => getBackground(theme)};
-
-  svg {
-    fill: blue;
-  }
 `;
 
 const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null }) => (
@@ -44,7 +40,7 @@ const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null
     <Flex mb="32px">
       {/* change url  */}
       <LinkExternal small href={`https://etherscan.io//address/${account}`} mr="16px">
-        View on Etherscan
+        <Text>View on Etherscan</Text>
       </LinkExternal>
       <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
     </Flex>
