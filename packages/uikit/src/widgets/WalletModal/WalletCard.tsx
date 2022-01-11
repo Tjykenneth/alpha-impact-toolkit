@@ -1,6 +1,6 @@
 /* eslint-disable react/require-default-props */
 import React from "react";
-import styled from "styled-components";
+import styled, { DefaultTheme } from "styled-components";
 import CustomButton from "../../components/Button/Button";
 import Text from "../../components/Text/Text";
 import { connectorLocalStorageKey } from "./config";
@@ -14,11 +14,21 @@ interface Props {
   isSelected?: boolean;
 }
 
+const getBackground = (theme: DefaultTheme) => {
+  if (theme.isDark) {
+    return "#6068DB";
+  }
+  return "#3F43C8";
+};
 interface CustomButtonProps {
   isSelected?: boolean;
 }
 const Button = styled(CustomButton)<CustomButtonProps>`
-  background: rgb(122 110 170);
+  background: ${({ theme }) => getBackground(theme)};
+`;
+
+const Change = styled(Text)`
+  color: #ffffff;
 `;
 
 const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb, isSelected }) => {
@@ -38,9 +48,7 @@ const WalletCard: React.FC<Props> = ({ login, walletConfig, onDismiss, mb, isSel
       id={`wallet-connect-${title.toLocaleLowerCase()}`}
     >
       <Icon mr="8px" width="20px" height="20px" />
-      <Text bold color="primary">
-        {title}
-      </Text>
+      <Change bold>{title}</Change>
     </Button>
   );
 };
