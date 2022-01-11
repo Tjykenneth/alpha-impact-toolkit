@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.3.0...@Tjykenneth/uikit@0.3.1) (2022-01-11)
+
+
+### Bug Fixes
+
+* **Add:** Changes in wallet connect modal ([ff4bbe0](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/ff4bbe0850f3a8393d796be3daef57a1bbbd0c6b))
+
+
+
+
+
 # [0.3.0](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.1.7...@Tjykenneth/uikit@0.3.0) (2022-01-11)
 
 
