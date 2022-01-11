@@ -34,10 +34,6 @@ const Modal = styled(DefaultModal)`
   > :first-child {
     border-bottom: none;
   }
-
-  svg {
-    fill: blue;
-  }
 `;
 
 const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
