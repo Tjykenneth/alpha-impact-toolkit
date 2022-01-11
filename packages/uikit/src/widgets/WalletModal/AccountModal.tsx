@@ -17,6 +17,13 @@ interface Props {
   onDismiss?: () => void;
 }
 
+const fillBackground = (theme: DefaultTheme) => {
+  if (theme.isDark) {
+    return "#6068DB";
+  }
+  return "#3F43C8";
+};
+
 const getBackground = (theme: DefaultTheme) => {
   if (theme.isDark) {
     return "rgb(21 23 26)";
@@ -26,6 +33,9 @@ const getBackground = (theme: DefaultTheme) => {
 
 const Modal = styled(DefaultModal)`
   background: ${({ theme }) => getBackground(theme)};
+  svg {
+    fill: ${({ theme }) => fillBackground(theme)};
+  }
 `;
 
 const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null }) => (
