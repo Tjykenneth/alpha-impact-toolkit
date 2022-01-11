@@ -17,6 +17,13 @@ const getBackground = (theme: DefaultTheme) => {
   return "#FFFFFF";
 };
 
+const fillBackground = (theme: DefaultTheme) => {
+  if (theme.isDark) {
+    return "#6068DB";
+  }
+  return "#3F43C8";
+};
+
 const Modal = styled(DefaultModal)`
   ::after {
     content: "";
@@ -33,6 +40,9 @@ const Modal = styled(DefaultModal)`
 
   > :first-child {
     border-bottom: none;
+  }
+  svg {
+    fill: ${({ theme }) => fillBackground(theme)};
   }
 `;
 
