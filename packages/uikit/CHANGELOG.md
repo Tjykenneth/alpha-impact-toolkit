@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.3.1...@Tjykenneth/uikit@0.3.2) (2022-01-20)
+
+
+### Bug Fixes
+
+* **Add:** Changes in toaster ([21f434c](https://github.com/Tjykenneth/alpha-impact-toolkit/commit/21f434c3f791eb652f76a7ee63e12a1c64490013))
+
+
+
+
+
 ## [0.3.1](https://github.com/Tjykenneth/alpha-impact-toolkit/compare/@Tjykenneth/uikit@0.3.0...@Tjykenneth/uikit@0.3.1) (2022-01-11)
 
 
